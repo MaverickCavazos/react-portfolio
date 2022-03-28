@@ -76,3 +76,55 @@
   padding-bottom: 15px;
 }
 
+
+form {
+  width: 40%;
+  
+}
+
+input {
+  font-size: 1rem;
+  padding: 6px;
+  border: 1px solid;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  margin: 5px;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+label {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 5px;
+}
+
+textarea {
+  width: 45%;
+  height: 13vh;
+  margin: 5px;
+}
+
+button {
+  margin: 5px;
+
+}
+
+.button {
+  color: #fff;
+  background-color: rgb(54, 71, 87);
+  transition-duration: 1s;
+  padding: 6px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ffffff; /* Green */
+  color: rgb(0, 0, 0);
+}
