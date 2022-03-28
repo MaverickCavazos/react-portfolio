@@ -3,13 +3,14 @@ import React from 'react';
 function Resume() {
     return (
         <header className="section-header" >
-            <h2 className="section-h2">Click the button to see my resume!</h2>
+            <h2 className="section-h2">Resume</h2>
             <p>
-                This link will give you access to my resume and provide you with a snapchost of my work history, proficiencies, and education!
+                Below is a snapshot of my work history, proficiencies, and education. If you would like to download a copy click the button!
             </p>
-            <form action="https://docs.google.com/document/d/1A_GH68zxbWGciIBp--g8pi9mwNPx_LtuXG-54iallSo/edit?usp=sharing">
-         <button className="button" type="submit">See Resume</button>
+            <form method="get" action="M. Cavazos - Resume (2).pdf">
+         <button className="button" type="submit">Download Resume</button>
       </form>
+      <iframe className="resume"src="https://drive.google.com/file/d/1HDGg7ysFBp_t9JgUEdcOU1im6jmhsZtB/preview" width="900" height="600" allow="autoplay"></iframe>
         </header>
     );
 }

@@ -128,3 +128,10 @@ button {
   background-color: #ffffff; /* Green */
   color: rgb(0, 0, 0);
 }
+
+.resume{
+  margin: auto;
+  width: 50%;
+  border: 3px solid; 
+  padding: 10px;
+}
