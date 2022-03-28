@@ -1,12 +1,11 @@
 import React from 'react';
+import Form from "./form";
 
 function Contact() {
     return (
-        <header>
-            <h2>Contact</h2>
-            <p>
-                This is maverick I am me hello hi this is my description for now placeholder.
-            </p>
+        <header className="section-header" >
+            <h2 className="section-h2">Contact Me</h2>
+            <Form></Form>
         </header>
     );
 }
