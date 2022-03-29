@@ -11,11 +11,6 @@ function Nav() {
         </li>
         )
     });
-
-  /*   const handleClick = () => {
-        setClicked(!clicked);
-    };
- */
     return (
         <header className="top-header">
             <h1 className='logo flex-row-all'>

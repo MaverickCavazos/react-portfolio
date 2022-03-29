@@ -4,9 +4,12 @@ function Portfolio() {
     return (
         <header className="section-header">
             <h2 className="section-h2">Portfolio</h2>
-            <p>
-                This is maverick I am me hello hi this is my description for now placeholder.
-            </p>
+            <form action="https://maverickcavazos.github.io/COVID-Tracker/">
+                <input className="covid-button" type="submit" value="Covid-tracker" />
+            </form>
+            <form action="https://coding-bud.herokuapp.com/">
+                <input className="coding-button" type="submit" value="Coding-Buddy" />
+            </form>
         </header>
     );
 }

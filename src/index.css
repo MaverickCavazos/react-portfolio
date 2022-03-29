@@ -110,18 +110,19 @@ textarea {
   margin: 5px;
 }
 
-button {
+.form-button {
   margin: 5px;
 
 }
 
-.button {
+.resume-button {
   color: #fff;
   background-color: rgb(54, 71, 87);
   transition-duration: 1s;
   padding: 6px;
   border-radius: 6px;
   margin-top: 20px;
+  margin-bottom: 8px;
 }
 
 .button:hover {
@@ -134,4 +135,32 @@ button {
   width: 50%;
   border: 3px solid; 
   padding: 10px;
+}
+
+.covid-button {
+  background: url("./components/images/covidtracker.jpg");
+  padding: 150px 200px;
+  font-weight: bold;
+  font-size: 20px;
+  transition-duration: 1s;
+}
+
+.covid-button:hover {
+  filter: grayscale(30%);
+  box-shadow: 10px 10px 5px rgb(61, 85, 94);
+}
+
+.coding-button {
+  background: url("./components/images/coding-buddy-img.jpg");
+  padding: 151px 200px;
+  transition-duration: 1s;
+  color: #fff;
+  font-weight: bold;
+  font-size: 19px;
+  background-position: -420px -20px;
+}
+
+.coding-button:hover {
+  filter: grayscale(30%);
+  box-shadow: 10px 10px 5px rgb(61, 85, 94);
 }
