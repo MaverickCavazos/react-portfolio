@@ -3,7 +3,7 @@ import React from 'react';
 function Portfolio() {
     return (
         <header className="section-header">
-            <h2 className="section-h2">Portfolio</h2>
+            <h2 className="section-h2">Projects</h2>
             <form action="https://maverickcavazos.github.io/COVID-Tracker/">
                 <input className="covid-button" type="submit" value="Covid-tracker" />
             </form>

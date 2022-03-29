@@ -164,3 +164,34 @@ textarea {
   filter: grayscale(30%);
   box-shadow: 10px 10px 5px rgb(61, 85, 94);
 }
+
+.linkedin {
+  margin-bottom: -5px;
+}
+
+.footerWrap {
+  width:100%;
+  position:fixed;
+  bottom: 0px;
+}
+.footer {
+  width:400px;
+  margin:auto;
+}
+.footerContent {
+  float:left;
+  width:100%;
+  background-color:rgb(255, 255, 255);
+  padding:20px 0;
+}
+.footer ul {float:left; width:100%; text-align:center; }
+
+.profile-pic {
+  border-radius: 600px;
+  width: 120px; 
+  height: 120px; 
+  overflow: hidden;
+  border: 5px solid rgb(255, 255, 255);
+  object-fit: cover;
+  object-position: 100% 0;
+}
